@@ -151,6 +151,20 @@ def load_top200_data() -> pd.DataFrame:
                 data = json.load(f)
             if isinstance(data, list) and len(data) > 0:
                 df = pd.DataFrame(data)
+                num_cols = [
+                    "price", "quality_score", "valuation_score", "reality_score",
+                    "roic", "fcf_yield", "selected_z", "mkt_cap", "enterprise_value",
+                    "total_assets", "total_liab", "stockholders_equity", "total_cash",
+                    "total_debt", "total_rev", "ebit", "net_income", "op_cf", "capex",
+                    "fcf", "median_fcf", "sbc", "buybacks", "trailing_eps", "forward_eps",
+                    "trailing_pe", "forward_pe", "eps_growth", "peg_ratio", "debt_equity_ratio",
+                    "rev_cagr", "beta", "dynamic_wacc", "cost_equity", "cost_debt",
+                    "economic_spread", "sbc_buyback_ratio", "p1_solvency", "p2_moat",
+                    "p3_discipline", "p4_valuation", "p5_relative"
+                ]
+                for c in num_cols:
+                    if c in df.columns:
+                        df[c] = pd.to_numeric(df[c], errors="coerce")
                 return df
         except Exception:
             pass
@@ -166,6 +180,15 @@ def load_dividend_data() -> pd.DataFrame:
                 data = json.load(f)
             if isinstance(data, list) and len(data) > 0:
                 df = pd.DataFrame(data)
+                num_cols = [
+                    "price", "dividend_rate", "dividend_yield_pct", "five_yr_avg_yield",
+                    "fcf_payout_ratio", "gaap_payout_ratio", "streak_years", "cagr_1y_pct",
+                    "cagr_3y_pct", "cagr_5y_pct", "chowder_number", "net_debt_ebitda",
+                    "altman_z", "safety_score"
+                ]
+                for c in num_cols:
+                    if c in df.columns:
+                        df[c] = pd.to_numeric(df[c], errors="coerce")
                 return df
         except Exception:
             pass
@@ -181,6 +204,8 @@ def load_sector_data() -> pd.DataFrame:
                 data = json.load(f)
             if isinstance(data, list) and len(data) > 0:
                 df = pd.DataFrame(data)
+                if "composite_score" in df.columns:
+                    df["composite_score"] = pd.to_numeric(df["composite_score"], errors="coerce")
                 return df
         except Exception:
             pass
@@ -377,23 +402,27 @@ with tab_top200:
         available_cols = [c for c in display_cols if c in filtered_df.columns]
         table_df = filtered_df[available_cols].copy()
 
-        # Format percentages and floats
-        if "price" in table_df.columns:
-            table_df["price"] = table_df["price"].apply(lambda x: f"${x:,.2f}" if pd.notnull(x) else "N/A")
-        if "roic" in table_df.columns:
-            table_df["roic"] = table_df["roic"].apply(lambda x: f"{x*100:.1f}%" if pd.notnull(x) else "N/A")
-        if "fcf_yield" in table_df.columns:
-            table_df["fcf_yield"] = table_df["fcf_yield"].apply(lambda x: f"{x*100:.1f}%" if pd.notnull(x) else "N/A")
-        if "selected_z" in table_df.columns:
-            table_df["selected_z"] = table_df["selected_z"].apply(lambda x: f"{x:.2f}" if pd.notnull(x) else "N/A")
-        if "quality_score" in table_df.columns:
-            table_df["quality_score"] = table_df["quality_score"].apply(lambda x: f"{x:.1f}" if pd.notnull(x) else "N/A")
-        if "valuation_score" in table_df.columns:
-            table_df["valuation_score"] = table_df["valuation_score"].apply(lambda x: f"{x:.1f}" if pd.notnull(x) else "N/A")
-        if "reality_score" in table_df.columns:
-            table_df["reality_score"] = table_df["reality_score"].apply(lambda x: f"{x:.1f}" if pd.notnull(x) else "N/A")
+        # Ensure columns are strictly numeric for sorting
+        num_cols = ["price", "quality_score", "valuation_score", "reality_score", "roic", "fcf_yield", "selected_z"]
+        for c in num_cols:
+            if c in table_df.columns:
+                table_df[c] = pd.to_numeric(table_df[c], errors="coerce")
 
-        st.dataframe(table_df, use_container_width=True, height=450)
+        top200_col_config = {
+            "symbol": st.column_config.TextColumn("Symbol", width="small"),
+            "name": st.column_config.TextColumn("Company Name", width="medium"),
+            "price": st.column_config.NumberColumn("Price", format="$%.2f"),
+            "sector": st.column_config.TextColumn("Sector", width="medium"),
+            "quality_score": st.column_config.NumberColumn("Quality Score", format="%.2f", help="Quality Gate: ≥ 6.0"),
+            "valuation_score": st.column_config.NumberColumn("Valuation Score", format="%.2f", help="Valuation Gate: ≥ 5.0"),
+            "reality_score": st.column_config.NumberColumn("Reality Score", format="%.2f", help="Combined Reality Score (0-10)"),
+            "roic": st.column_config.NumberColumn("ROIC (%)", format="%.1f%%", help="Return on Invested Capital"),
+            "fcf_yield": st.column_config.NumberColumn("FCF Yield (%)", format="%.1f%%", help="Free Cash Flow Yield"),
+            "selected_z": st.column_config.NumberColumn("Altman-Z", format="%.2f", help="Solvency Score (≥ 2.9 Safe, < 1.8 Distress)"),
+            "screening_code": st.column_config.TextColumn("Signal Code")
+        }
+
+        st.dataframe(table_df, column_config=top200_col_config, use_container_width=True, height=450)
 
         # CSV Export
         csv_data = filtered_df.to_csv(index=False).encode('utf-8')
@@ -531,20 +560,29 @@ with tab_dividend:
         available_div_cols = [c for c in div_display_cols if c in filtered_div.columns]
         div_table = filtered_div[available_div_cols].copy()
 
-        if "price" in div_table.columns:
-            div_table["price"] = div_table["price"].apply(lambda x: f"${x:,.2f}" if pd.notnull(x) else "N/A")
-        if "dividend_yield_pct" in div_table.columns:
-            div_table["dividend_yield_pct"] = div_table["dividend_yield_pct"].apply(lambda x: f"{x:.2f}%" if pd.notnull(x) else "N/A")
-        if "cagr_5y_pct" in div_table.columns:
-            div_table["cagr_5y_pct"] = div_table["cagr_5y_pct"].apply(lambda x: f"{x:+.2f}%" if pd.notnull(x) else "N/A")
-        if "chowder_number" in div_table.columns:
-            div_table["chowder_number"] = div_table["chowder_number"].apply(lambda x: f"{x:.2f}%" if pd.notnull(x) else "N/A")
+        # Ensure columns are strictly numeric for sorting
         if "fcf_payout_ratio" in div_table.columns:
-            div_table["fcf_payout_ratio"] = div_table["fcf_payout_ratio"].apply(lambda x: f"{x*100:.1f}%" if pd.notnull(x) and x is not None else "N/A")
-        if "safety_score" in div_table.columns:
-            div_table["safety_score"] = div_table["safety_score"].apply(lambda x: f"{x:.0f}" if pd.notnull(x) else "N/A")
+            div_table["fcf_payout_ratio"] = pd.to_numeric(div_table["fcf_payout_ratio"], errors="coerce") * 100.0
 
-        st.dataframe(div_table, use_container_width=True, height=450)
+        for col in ["price", "dividend_yield_pct", "cagr_5y_pct", "chowder_number", "streak_years", "safety_score"]:
+            if col in div_table.columns:
+                div_table[col] = pd.to_numeric(div_table[col], errors="coerce")
+
+        div_col_config = {
+            "symbol": st.column_config.TextColumn("Symbol", width="small"),
+            "name": st.column_config.TextColumn("Company Name", width="medium"),
+            "sector": st.column_config.TextColumn("Sector", width="medium"),
+            "price": st.column_config.NumberColumn("Price", format="$%.2f"),
+            "dividend_yield_pct": st.column_config.NumberColumn("Yield (%)", format="%.2f%%"),
+            "cagr_5y_pct": st.column_config.NumberColumn("5Y CAGR (%)", format="%.2f%%"),
+            "chowder_number": st.column_config.NumberColumn("Chowder Rule (%)", format="%.2f%%", help="Dividend Yield + 5-Year CAGR"),
+            "fcf_payout_ratio": st.column_config.NumberColumn("FCF Payout (%)", format="%.1f%%", help="FCF Dividend Payout Ratio"),
+            "streak_years": st.column_config.NumberColumn("Streak (Yrs)", format="%d yrs", help="Consecutive Years of Dividend Growth"),
+            "safety_score": st.column_config.NumberColumn("Safety Score", format="%.0f", help="Dividend Fortress Safety Score (0-100)"),
+            "tier": st.column_config.TextColumn("Fortress Tier")
+        }
+
+        st.dataframe(div_table, column_config=div_col_config, use_container_width=True, height=450)
 
         # CSV Export
         csv_div = filtered_div.to_csv(index=False).encode('utf-8')
@@ -699,14 +737,26 @@ with tab_sector:
             "rsi_14", "rs_ratio", "rrg_quadrant", "composite_score", "action"
         ]].copy()
 
-        disp_sec["price"] = disp_sec["price"].apply(lambda x: f"${x:,.2f}" if pd.notnull(x) else "N/A")
-        disp_sec["ret_3m"] = disp_sec["ret_3m"].apply(lambda x: f"{x:+.1f}%" if pd.notnull(x) else "N/A")
-        disp_sec["ret_6m"] = disp_sec["ret_6m"].apply(lambda x: f"{x:+.1f}%" if pd.notnull(x) else "N/A")
-        disp_sec["rsi_14"] = disp_sec["rsi_14"].apply(lambda x: f"{x:.1f}" if pd.notnull(x) else "N/A")
-        disp_sec["rs_ratio"] = disp_sec["rs_ratio"].apply(lambda x: f"{x:.2f}" if pd.notnull(x) else "N/A")
-        disp_sec["composite_score"] = disp_sec["composite_score"].apply(lambda x: f"{x:.1f}" if pd.notnull(x) else "N/A")
+        # Ensure numeric columns for sorting
+        for c in ["price", "ret_3m", "ret_6m", "rsi_14", "rs_ratio", "composite_score"]:
+            if c in disp_sec.columns:
+                disp_sec[c] = pd.to_numeric(disp_sec[c], errors="coerce")
 
-        st.dataframe(disp_sec, use_container_width=True, height=450)
+        sector_col_config = {
+            "symbol": st.column_config.TextColumn("Symbol", width="small"),
+            "name": st.column_config.TextColumn("ETF Name", width="medium"),
+            "category": st.column_config.TextColumn("Category", width="medium"),
+            "price": st.column_config.NumberColumn("Price", format="$%.2f"),
+            "ret_3m": st.column_config.NumberColumn("3M Return (%)", format="%.1f%%"),
+            "ret_6m": st.column_config.NumberColumn("6M Return (%)", format="%.1f%%"),
+            "rsi_14": st.column_config.NumberColumn("RSI (14)", format="%.1f"),
+            "rs_ratio": st.column_config.NumberColumn("RS-Ratio", format="%.2f", help="Relative Strength vs SPY (>100 is outperforming)"),
+            "rrg_quadrant": st.column_config.TextColumn("RRG Quadrant"),
+            "composite_score": st.column_config.NumberColumn("Composite Score", format="%.1f", help="Multi-factor allocation score (0-100)"),
+            "action": st.column_config.TextColumn("Tactical Action")
+        }
+
+        st.dataframe(disp_sec, column_config=sector_col_config, use_container_width=True, height=450)
 
 
 # =============================================================================
@@ -826,23 +876,44 @@ with tab_portfolio:
             # Positions Table
             st.markdown("#### **Active Holdings Ledger**")
             disp_pos = df_pos.copy()
-            disp_pos["Shares"] = disp_pos["Shares"].apply(lambda x: f"{x:.4f}")
-            disp_pos["Cost Basis"] = disp_pos["Cost Basis"].apply(lambda x: f"${x:,.2f}")
-            disp_pos["Current Price"] = disp_pos["Current Price"].apply(lambda x: f"${x:,.2f}")
-            disp_pos["Invested"] = disp_pos["Invested"].apply(lambda x: f"${x:,.2f}")
-            disp_pos["Market Value"] = disp_pos["Market Value"].apply(lambda x: f"${x:,.2f}")
-            disp_pos["Weight (%)"] = disp_pos["Weight (%)"].apply(lambda x: f"{x:.1f}%")
-            disp_pos["Unrealized P&L ($)"] = disp_pos["Unrealized P&L ($)"].apply(lambda x: f"${x:+,.2f}")
-            disp_pos["Unrealized P&L (%)"] = disp_pos["Unrealized P&L (%)"].apply(lambda x: f"{x:+.2f}%")
+            for c in ["Shares", "Cost Basis", "Current Price", "Invested", "Market Value", "Weight (%)", "Unrealized P&L ($)", "Unrealized P&L (%)"]:
+                if c in disp_pos.columns:
+                    disp_pos[c] = pd.to_numeric(disp_pos[c], errors="coerce")
 
-            st.dataframe(disp_pos, use_container_width=True)
+            pos_col_config = {
+                "Symbol": st.column_config.TextColumn("Symbol", width="small"),
+                "Company / Sector": st.column_config.TextColumn("Company / Sector", width="medium"),
+                "Shares": st.column_config.NumberColumn("Shares", format="%.4f"),
+                "Cost Basis": st.column_config.NumberColumn("Cost Basis", format="$%.2f"),
+                "Current Price": st.column_config.NumberColumn("Price", format="$%.2f"),
+                "Invested": st.column_config.NumberColumn("Invested", format="$%.2f"),
+                "Market Value": st.column_config.NumberColumn("Market Value", format="$%.2f"),
+                "Weight (%)": st.column_config.NumberColumn("Weight (%)", format="%.1f%%"),
+                "Unrealized P&L ($)": st.column_config.NumberColumn("Unrealized P&L ($)", format="$%.2f"),
+                "Unrealized P&L (%)": st.column_config.NumberColumn("Unrealized P&L (%)", format="%.2f%%")
+            }
+
+            st.dataframe(disp_pos, column_config=pos_col_config, use_container_width=True)
 
         # Transactions Drawer
         transactions = port_data.get("transactions", [])
         if transactions:
             with st.expander(f"📜 View Transaction History ({len(transactions)} events)"):
                 df_tx = pd.DataFrame(transactions)
-                st.dataframe(df_tx, use_container_width=True)
+                for c in ["shares", "price", "amount", "cash_after"]:
+                    if c in df_tx.columns:
+                        df_tx[c] = pd.to_numeric(df_tx[c], errors="coerce")
+                tx_col_config = {
+                    "timestamp": st.column_config.TextColumn("Timestamp"),
+                    "action": st.column_config.TextColumn("Action"),
+                    "ticker": st.column_config.TextColumn("Symbol"),
+                    "shares": st.column_config.NumberColumn("Shares", format="%.4f"),
+                    "price": st.column_config.NumberColumn("Price", format="$%.2f"),
+                    "amount": st.column_config.NumberColumn("Amount", format="$%.2f"),
+                    "cash_after": st.column_config.NumberColumn("Cash After", format="$%.2f"),
+                    "reason": st.column_config.TextColumn("Reason")
+                }
+                st.dataframe(df_tx, column_config=tx_col_config, use_container_width=True)
 
 
 # =============================================================================
