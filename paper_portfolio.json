@@ -1,0 +1,339 @@
+{
+  "version": "3.1-Top200",
+  "created_at": "2026-09-05T23:59:45.177536",
+  "last_updated": "2026-09-05T23:59:45.177536",
+  "initial_cash": 1000.0,
+  "cash": 60.0,
+  "watchlist": [
+    "TSM",
+    "NFLX",
+    "NVDA",
+    "MO",
+    "ACN",
+    "BKNG",
+    "STZ",
+    "ZTS",
+    "SCHW",
+    "AXP",
+    "CMCSA",
+    "JNJ",
+    "JPM",
+    "DHI",
+    "LLY"
+  ],
+  "positions": {
+    "TSM": {
+      "shares": 0.18651931640670535,
+      "cost_basis_per_share": 428.91,
+      "total_cost": 80.0,
+      "first_bought_at": "2026-09-05T23:59:45.177536",
+      "last_updated": "2026-09-05T23:59:45.177536",
+      "last_score": 8.9,
+      "screening_code": "HIGH_CONVICTION"
+    },
+    "NFLX": {
+      "shares": 1.0223642172523961,
+      "cost_basis_per_share": 78.25,
+      "total_cost": 80.0,
+      "first_bought_at": "2026-09-05T23:59:45.177536",
+      "last_updated": "2026-09-05T23:59:45.177536",
+      "last_score": 8.5,
+      "screening_code": "HIGH_CONVICTION"
+    },
+    "NVDA": {
+      "shares": 0.30387220003472826,
+      "cost_basis_per_share": 230.36,
+      "total_cost": 70.0,
+      "first_bought_at": "2026-09-05T23:59:45.177536",
+      "last_updated": "2026-09-05T23:59:45.177536",
+      "last_score": 8.4,
+      "screening_code": "HIGH_CONVICTION"
+    },
+    "MO": {
+      "shares": 1.016260162601626,
+      "cost_basis_per_share": 68.88,
+      "total_cost": 70.0,
+      "first_bought_at": "2026-09-05T23:59:45.177536",
+      "last_updated": "2026-09-05T23:59:45.177536",
+      "last_score": 8.4,
+      "screening_code": "HIGH_CONVICTION"
+    },
+    "ACN": {
+      "shares": 0.3748928877463582,
+      "cost_basis_per_share": 186.72,
+      "total_cost": 70.0,
+      "first_bought_at": "2026-09-05T23:59:45.177536",
+      "last_updated": "2026-09-05T23:59:45.177536",
+      "last_score": 8.3,
+      "screening_code": "HIGH_CONVICTION"
+    },
+    "BKNG": {
+      "shares": 0.3621501370996948,
+      "cost_basis_per_share": 193.29,
+      "total_cost": 70.0,
+      "first_bought_at": "2026-09-05T23:59:45.177536",
+      "last_updated": "2026-09-05T23:59:45.177536",
+      "last_score": 8.3,
+      "screening_code": "HIGH_CONVICTION"
+    },
+    "STZ": {
+      "shares": 0.39007645498517707,
+      "cost_basis_per_share": 128.18,
+      "total_cost": 50.0,
+      "first_bought_at": "2026-09-05T23:59:45.177536",
+      "last_updated": "2026-09-05T23:59:45.177536",
+      "last_score": 8.2,
+      "screening_code": "HIGH_CONVICTION"
+    },
+    "ZTS": {
+      "shares": 0.9233610341643582,
+      "cost_basis_per_share": 75.81,
+      "total_cost": 70.0,
+      "first_bought_at": "2026-09-05T23:59:45.177536",
+      "last_updated": "2026-09-05T23:59:45.177536",
+      "last_score": 8.2,
+      "screening_code": "HIGH_CONVICTION"
+    },
+    "SCHW": {
+      "shares": 0.45749839875560433,
+      "cost_basis_per_share": 109.29,
+      "total_cost": 50.0,
+      "first_bought_at": "2026-09-05T23:59:45.177536",
+      "last_updated": "2026-09-05T23:59:45.177536",
+      "last_score": 8.1,
+      "screening_code": "BALANCED_PASS"
+    },
+    "AXP": {
+      "shares": 0.153298994358597,
+      "cost_basis_per_share": 326.16,
+      "total_cost": 50.0,
+      "first_bought_at": "2026-09-05T23:59:45.177536",
+      "last_updated": "2026-09-05T23:59:45.177536",
+      "last_score": 8.1,
+      "screening_code": "BALANCED_PASS"
+    },
+    "CMCSA": {
+      "shares": 2.6425066062665157,
+      "cost_basis_per_share": 26.49,
+      "total_cost": 70.0,
+      "first_bought_at": "2026-09-05T23:59:45.177536",
+      "last_updated": "2026-09-05T23:59:45.177536",
+      "last_score": 8.0,
+      "screening_code": "HIGH_CONVICTION"
+    },
+    "JNJ": {
+      "shares": 0.25433273989027355,
+      "cost_basis_per_share": 275.23,
+      "total_cost": 70.0,
+      "first_bought_at": "2026-09-05T23:59:45.177536",
+      "last_updated": "2026-09-05T23:59:45.177536",
+      "last_score": 8.0,
+      "screening_code": "HIGH_CONVICTION"
+    },
+    "JPM": {
+      "shares": 0.1394155699308499,
+      "cost_basis_per_share": 358.64,
+      "total_cost": 50.0,
+      "first_bought_at": "2026-09-05T23:59:45.177536",
+      "last_updated": "2026-09-05T23:59:45.177536",
+      "last_score": 8.0,
+      "screening_code": "BALANCED_PASS"
+    },
+    "DHI": {
+      "shares": 0.3502626970227671,
+      "cost_basis_per_share": 142.75,
+      "total_cost": 50.0,
+      "first_bought_at": "2026-09-05T23:59:45.177536",
+      "last_updated": "2026-09-05T23:59:45.177536",
+      "last_score": 7.5,
+      "screening_code": "BALANCED_PASS"
+    },
+    "LLY": {
+      "shares": 0.034801976752279536,
+      "cost_basis_per_share": 1149.36,
+      "total_cost": 40.0,
+      "first_bought_at": "2026-09-05T23:59:45.177536",
+      "last_updated": "2026-09-05T23:59:45.177536",
+      "last_score": 7.5,
+      "screening_code": "BALANCED_PASS"
+    }
+  },
+  "transactions": [
+    {
+      "timestamp": "2026-09-05T23:59:45.177536",
+      "action": "RESET_TOP200",
+      "ticker": "USD",
+      "shares": 0.0,
+      "price": 1.0,
+      "amount": 1000.0,
+      "cash_after": 1000.0,
+      "realized_pnl": 0.0,
+      "reason": "Top 200 S&P/Nasdaq Multi-Sector Universe Rebalancing"
+    },
+    {
+      "timestamp": "2026-09-05T23:59:45.177536",
+      "action": "BUY",
+      "ticker": "TSM",
+      "shares": 0.18651931640670535,
+      "price": 428.91,
+      "amount": 80.0,
+      "cash_after": 920.0,
+      "realized_pnl": 0.0,
+      "reason": "Top 200 Screen Rank #1 (Q:8.8, V:9.0)"
+    },
+    {
+      "timestamp": "2026-09-05T23:59:45.177536",
+      "action": "BUY",
+      "ticker": "NFLX",
+      "shares": 1.0223642172523961,
+      "price": 78.25,
+      "amount": 80.0,
+      "cash_after": 840.0,
+      "realized_pnl": 0.0,
+      "reason": "Top 200 Screen Rank #2 (Q:9.7, V:6.8)"
+    },
+    {
+      "timestamp": "2026-09-05T23:59:45.177536",
+      "action": "BUY",
+      "ticker": "NVDA",
+      "shares": 0.30387220003472826,
+      "price": 230.36,
+      "amount": 70.0,
+      "cash_after": 770.0,
+      "realized_pnl": 0.0,
+      "reason": "Top 200 Screen Rank #3 (Q:9.7, V:6.5)"
+    },
+    {
+      "timestamp": "2026-09-05T23:59:45.177536",
+      "action": "BUY",
+      "ticker": "MO",
+      "shares": 1.016260162601626,
+      "price": 68.88,
+      "amount": 70.0,
+      "cash_after": 700.0,
+      "realized_pnl": 0.0,
+      "reason": "Top 200 Screen Rank #4 (Q:8.5, V:8.2)"
+    },
+    {
+      "timestamp": "2026-09-05T23:59:45.177536",
+      "action": "BUY",
+      "ticker": "ACN",
+      "shares": 0.3748928877463582,
+      "price": 186.72,
+      "amount": 70.0,
+      "cash_after": 630.0,
+      "realized_pnl": 0.0,
+      "reason": "Top 200 Screen Rank #5 (Q:7.8, V:9.0)"
+    },
+    {
+      "timestamp": "2026-09-05T23:59:45.177536",
+      "action": "BUY",
+      "ticker": "BKNG",
+      "shares": 0.3621501370996948,
+      "price": 193.29,
+      "amount": 70.0,
+      "cash_after": 560.0,
+      "realized_pnl": 0.0,
+      "reason": "Top 200 Screen Rank #6 (Q:8.5, V:8.0)"
+    },
+    {
+      "timestamp": "2026-09-05T23:59:45.177536",
+      "action": "BUY",
+      "ticker": "STZ",
+      "shares": 0.39007645498517707,
+      "price": 128.18,
+      "amount": 50.0,
+      "cash_after": 510.0,
+      "realized_pnl": 0.0,
+      "reason": "Top 200 Screen Rank #7 (Q:8.2, V:8.2)"
+    },
+    {
+      "timestamp": "2026-09-05T23:59:45.177536",
+      "action": "BUY",
+      "ticker": "ZTS",
+      "shares": 0.9233610341643582,
+      "price": 75.81,
+      "amount": 70.0,
+      "cash_after": 440.0,
+      "realized_pnl": 0.0,
+      "reason": "Top 200 Screen Rank #8 (Q:8.5, V:7.8)"
+    },
+    {
+      "timestamp": "2026-09-05T23:59:45.177536",
+      "action": "BUY",
+      "ticker": "SCHW",
+      "shares": 0.45749839875560433,
+      "price": 109.29,
+      "amount": 50.0,
+      "cash_after": 390.0,
+      "realized_pnl": 0.0,
+      "reason": "Top 200 Screen Rank #9 (Q:9.3, V:6.2)"
+    },
+    {
+      "timestamp": "2026-09-05T23:59:45.177536",
+      "action": "BUY",
+      "ticker": "AXP",
+      "shares": 0.153298994358597,
+      "price": 326.16,
+      "amount": 50.0,
+      "cash_after": 340.0,
+      "realized_pnl": 0.0,
+      "reason": "Top 200 Screen Rank #10 (Q:9.3, V:6.2)"
+    },
+    {
+      "timestamp": "2026-09-05T23:59:45.177536",
+      "action": "BUY",
+      "ticker": "CMCSA",
+      "shares": 2.6425066062665157,
+      "price": 26.49,
+      "amount": 70.0,
+      "cash_after": 270.0,
+      "realized_pnl": 0.0,
+      "reason": "Top 200 Screen Rank #11 (Q:7.5, V:8.8)"
+    },
+    {
+      "timestamp": "2026-09-05T23:59:45.177536",
+      "action": "BUY",
+      "ticker": "JNJ",
+      "shares": 0.25433273989027355,
+      "price": 275.23,
+      "amount": 70.0,
+      "cash_after": 200.0,
+      "realized_pnl": 0.0,
+      "reason": "Top 200 Screen Rank #12 (Q:9.0, V:6.5)"
+    },
+    {
+      "timestamp": "2026-09-05T23:59:45.177536",
+      "action": "BUY",
+      "ticker": "JPM",
+      "shares": 0.1394155699308499,
+      "price": 358.64,
+      "amount": 50.0,
+      "cash_after": 150.0,
+      "realized_pnl": 0.0,
+      "reason": "Top 200 Screen Rank #13 (Q:9.3, V:6.0)"
+    },
+    {
+      "timestamp": "2026-09-05T23:59:45.177536",
+      "action": "BUY",
+      "ticker": "DHI",
+      "shares": 0.3502626970227671,
+      "price": 142.75,
+      "amount": 50.0,
+      "cash_after": 100.0,
+      "realized_pnl": 0.0,
+      "reason": "Top 200 Screen Rank #14 (Q:7.0, V:8.2)"
+    },
+    {
+      "timestamp": "2026-09-05T23:59:45.177536",
+      "action": "BUY",
+      "ticker": "LLY",
+      "shares": 0.034801976752279536,
+      "price": 1149.36,
+      "amount": 40.0,
+      "cash_after": 60.0,
+      "realized_pnl": 0.0,
+      "reason": "Top 200 Screen Rank #15 (Q:8.5, V:6.0)"
+    }
+  ]
+}

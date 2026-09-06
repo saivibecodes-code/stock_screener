@@ -1,0 +1,1924 @@
+[
+  {
+    "symbol": "XLRE",
+    "name": "State Street Real Estate Select",
+    "category": "Real Estate",
+    "technicals": {
+      "current_price": 43.93000030517578,
+      "sma_50": 44.84820022583008,
+      "sma_200": 42.63362621307373,
+      "dist_50_pct": -2.047350654052471,
+      "dist_200_pct": 3.0407314771280447,
+      "rsi_14": 36.764689382804704,
+      "regime": "BULLISH_PULLBACK"
+    },
+    "relative_momentum": {
+      "ret_1m_etf": -2.334369159062788,
+      "ret_1m_spy": -0.39702134928059074,
+      "spread_1m": -1.9373478097821972,
+      "ret_3m_etf": 0.6471806869047247,
+      "ret_3m_spy": 4.4579759803143215,
+      "spread_3m": -3.8107952934095968,
+      "ret_6m_etf": 3.798997449728714,
+      "ret_6m_spy": 14.155567850717276,
+      "spread_6m": -10.356570400988563,
+      "ret_12m_etf": 7.7396876499537415,
+      "ret_12m_spy": 20.314569743216325,
+      "spread_12m": -12.574882093262584,
+      "rs_ratio": 92.47447176509752,
+      "rs_momentum": 98.3163685695255,
+      "rrg_quadrant": "LAGGING"
+    },
+    "fundamentals": {
+      "top_single": {
+        "symbol": "WELL",
+        "name": "Welltower Inc",
+        "weight_pct": 11.425628999999999
+      },
+      "top3_weight": 27.587289,
+      "top5_weight": 38.1332593,
+      "top10_weight": 61.4091492,
+      "concentration_risk": "LOW",
+      "aum_billions": 8.312176128,
+      "pe_ratio": 31.30837,
+      "dividend_yield_pct": 3.19,
+      "expense_ratio_pct": 0.09
+    },
+    "top_holdings": [
+      {
+        "symbol": "WELL",
+        "name": "Welltower Inc",
+        "weight_pct": 11.425628999999999
+      },
+      {
+        "symbol": "PLD",
+        "name": "Prologis Inc",
+        "weight_pct": 9.088709999999999
+      },
+      {
+        "symbol": "EQIX",
+        "name": "Equinix Inc",
+        "weight_pct": 7.0729500000000005
+      },
+      {
+        "symbol": "AMT",
+        "name": "American Tower Corp",
+        "weight_pct": 5.6082603
+      },
+      {
+        "symbol": "VMRK",
+        "name": "Vivmark Residential",
+        "weight_pct": 4.93771
+      },
+      {
+        "symbol": "DLR",
+        "name": "Digital Realty Trust Inc",
+        "weight_pct": 4.91601
+      },
+      {
+        "symbol": "SPG",
+        "name": "Simon Property Group Inc",
+        "weight_pct": 4.7172297
+      },
+      {
+        "symbol": "VTR",
+        "name": "Ventas Inc",
+        "weight_pct": 4.5786902
+      },
+      {
+        "symbol": "PSA",
+        "name": "Public Storage",
+        "weight_pct": 4.576510000000001
+      },
+      {
+        "symbol": "O",
+        "name": "Realty Income Corp",
+        "weight_pct": 4.48745
+      }
+    ],
+    "composite_score": 38.6,
+    "action": "UNDERWEIGHT",
+    "warnings": []
+  },
+  {
+    "symbol": "XLY",
+    "name": "State Street Consumer Discretio",
+    "category": "Consumer Cyclical",
+    "technicals": {
+      "current_price": 114.91000366210938,
+      "sma_50": 116.24859970092774,
+      "sma_200": 116.67228958129883,
+      "dist_50_pct": -1.1514943339207218,
+      "dist_200_pct": -1.5104579892224246,
+      "rsi_14": 44.22836870742569,
+      "regime": "STRONG_BEARISH"
+    },
+    "relative_momentum": {
+      "ret_1m_etf": -4.129815554009508,
+      "ret_1m_spy": -0.39702134928059074,
+      "spread_1m": -3.7327942047289175,
+      "ret_3m_etf": -0.21753878280041938,
+      "ret_3m_spy": 4.4579759803143215,
+      "spread_3m": -4.675514763114741,
+      "ret_6m_etf": 0.6809263871675908,
+      "ret_6m_spy": 14.155578177770622,
+      "spread_6m": -13.474651790603032,
+      "ret_12m_etf": -1.4905316285941494,
+      "ret_12m_spy": 20.314558271759186,
+      "spread_12m": -21.805089900353337,
+      "rs_ratio": 91.30170164886745,
+      "rs_momentum": 97.50296302030578,
+      "rrg_quadrant": "LAGGING"
+    },
+    "fundamentals": {
+      "top_single": {
+        "symbol": "AMZN",
+        "name": "Amazon.com Inc",
+        "weight_pct": 24.367900000000002
+      },
+      "top3_weight": 47.103950000000005,
+      "top5_weight": 55.040600000000005,
+      "top10_weight": 68.5747399,
+      "concentration_risk": "HIGH",
+      "aum_billions": 22.749814784,
+      "pe_ratio": 25.110588,
+      "dividend_yield_pct": 0.77,
+      "expense_ratio_pct": 0.09
+    },
+    "top_holdings": [
+      {
+        "symbol": "AMZN",
+        "name": "Amazon.com Inc",
+        "weight_pct": 24.367900000000002
+      },
+      {
+        "symbol": "TSLA",
+        "name": "Tesla Inc",
+        "weight_pct": 17.28693
+      },
+      {
+        "symbol": "HD",
+        "name": "The Home Depot Inc",
+        "weight_pct": 5.44912
+      },
+      {
+        "symbol": "MCD",
+        "name": "McDonald's Corp",
+        "weight_pct": 4.074669999999999
+      },
+      {
+        "symbol": "BKNG",
+        "name": "Booking Holdings Inc",
+        "weight_pct": 3.8619800000000004
+      },
+      {
+        "symbol": "TJX",
+        "name": "TJX Companies Inc",
+        "weight_pct": 3.4888299999999997
+      },
+      {
+        "symbol": "SBUX",
+        "name": "Starbucks Corp",
+        "weight_pct": 3.03143
+      },
+      {
+        "symbol": "LOW",
+        "name": "Lowe's Companies Inc",
+        "weight_pct": 2.8700098
+      },
+      {
+        "symbol": "DASH",
+        "name": "DoorDash Inc Ordinary Shares - Class A",
+        "weight_pct": 2.1954200999999998
+      },
+      {
+        "symbol": "GM",
+        "name": "General Motors Co",
+        "weight_pct": 1.9484499999999998
+      }
+    ],
+    "composite_score": 6.2,
+    "action": "AVOID",
+    "warnings": [
+      "High concentration: Top single holding (AMZN) is 24.4%"
+    ]
+  },
+  {
+    "symbol": "CIBR",
+    "name": "First Trust NASDAQ Cybersecurit",
+    "category": "Technology",
+    "technicals": {
+      "current_price": 94.58999633789062,
+      "sma_50": 93.86199996948243,
+      "sma_200": 77.27249538421631,
+      "dist_50_pct": 0.7756028729889675,
+      "dist_200_pct": 22.4109508403576,
+      "rsi_14": 44.557818451135184,
+      "regime": "STRONG_BULLISH"
+    },
+    "relative_momentum": {
+      "ret_1m_etf": -3.33163228111103,
+      "ret_1m_spy": -0.39702134928059074,
+      "spread_1m": -2.934610931830439,
+      "ret_3m_etf": 9.916804164995874,
+      "ret_3m_spy": 4.4579759803143215,
+      "spread_3m": 5.458828184681552,
+      "ret_6m_etf": 43.083820383359516,
+      "ret_6m_spy": 14.155578177770622,
+      "spread_6m": 28.928242205588894,
+      "ret_12m_etf": 29.367837962403076,
+      "ret_12m_spy": 20.31454680030422,
+      "spread_12m": 9.053291162098853,
+      "rs_ratio": 98.30921092293218,
+      "rs_momentum": 92.81333685182031,
+      "rrg_quadrant": "LAGGING"
+    },
+    "fundamentals": {
+      "top_single": {
+        "symbol": "PANW",
+        "name": "Palo Alto Networks Inc",
+        "weight_pct": 9.67912
+      },
+      "top3_weight": 27.5371,
+      "top5_weight": 39.9981599,
+      "top10_weight": 57.9214899,
+      "concentration_risk": "LOW",
+      "aum_billions": 16.119134208,
+      "pe_ratio": 31.346935,
+      "dividend_yield_pct": 0.38999999999999996,
+      "expense_ratio_pct": 0.09
+    },
+    "top_holdings": [
+      {
+        "symbol": "PANW",
+        "name": "Palo Alto Networks Inc",
+        "weight_pct": 9.67912
+      },
+      {
+        "symbol": "CRWD",
+        "name": "CrowdStrike Holdings Inc Class A",
+        "weight_pct": 9.01859
+      },
+      {
+        "symbol": "FTNT",
+        "name": "Fortinet Inc",
+        "weight_pct": 8.83939
+      },
+      {
+        "symbol": "CSCO",
+        "name": "Cisco Systems Inc",
+        "weight_pct": 6.546569600000001
+      },
+      {
+        "symbol": "AVGO",
+        "name": "Broadcom Inc",
+        "weight_pct": 5.9144903
+      },
+      {
+        "symbol": "NET",
+        "name": "Cloudflare Inc",
+        "weight_pct": 4.50124
+      },
+      {
+        "symbol": "OKTA",
+        "name": "Okta Inc Class A",
+        "weight_pct": 4.0051498
+      },
+      {
+        "symbol": "ZS",
+        "name": "Zscaler Inc",
+        "weight_pct": 3.6460802
+      },
+      {
+        "symbol": "FFIV",
+        "name": "F5 Inc",
+        "weight_pct": 2.9954
+      },
+      {
+        "symbol": "RBRK",
+        "name": "Rubrik Inc Class A Shares",
+        "weight_pct": 2.7754600000000003
+      }
+    ],
+    "composite_score": 69.7,
+    "action": "OVERWEIGHT",
+    "warnings": []
+  },
+  {
+    "symbol": "XLV",
+    "name": "State Street Health Care Select",
+    "category": "Health",
+    "technicals": {
+      "current_price": 171.4499969482422,
+      "sma_50": 165.72799926757813,
+      "sma_200": 154.5478946685791,
+      "dist_50_pct": 3.4526439140953658,
+      "dist_200_pct": 10.936481739792626,
+      "rsi_14": 59.128627290086975,
+      "regime": "STRONG_BULLISH"
+    },
+    "relative_momentum": {
+      "ret_1m_etf": 3.4826198258906427,
+      "ret_1m_spy": -0.39702134928059074,
+      "spread_1m": 3.8796411751712334,
+      "ret_3m_etf": 12.811101206077069,
+      "ret_3m_spy": 4.4579759803143215,
+      "spread_3m": 8.353125225762748,
+      "ret_6m_etf": 12.092615860857725,
+      "ret_6m_spy": 14.155567850717276,
+      "spread_6m": -2.0629519898595516,
+      "ret_12m_etf": 26.500763993372868,
+      "ret_12m_spy": 20.314569743216325,
+      "spread_12m": 6.18619425015654,
+      "rs_ratio": 103.43216691561679,
+      "rs_momentum": 97.43218487256208,
+      "rrg_quadrant": "WEAKENING"
+    },
+    "fundamentals": {
+      "top_single": {
+        "symbol": "LLY",
+        "name": "Eli Lilly and Co",
+        "weight_pct": 14.867348999999999
+      },
+      "top3_weight": 32.626039,
+      "top5_weight": 44.301299,
+      "top10_weight": 60.507708799999996,
+      "concentration_risk": "MODERATE",
+      "aum_billions": 43.909783552,
+      "pe_ratio": 30.631807,
+      "dividend_yield_pct": 1.49,
+      "expense_ratio_pct": 0.09
+    },
+    "top_holdings": [
+      {
+        "symbol": "LLY",
+        "name": "Eli Lilly and Co",
+        "weight_pct": 14.867348999999999
+      },
+      {
+        "symbol": "JNJ",
+        "name": "Johnson & Johnson",
+        "weight_pct": 10.39781
+      },
+      {
+        "symbol": "ABBV",
+        "name": "AbbVie Inc",
+        "weight_pct": 7.36088
+      },
+      {
+        "symbol": "MRK",
+        "name": "Merck & Co Inc",
+        "weight_pct": 5.92945
+      },
+      {
+        "symbol": "UNH",
+        "name": "UnitedHealth Group Inc",
+        "weight_pct": 5.74581
+      },
+      {
+        "symbol": "AMGN",
+        "name": "Amgen Inc",
+        "weight_pct": 3.76961
+      },
+      {
+        "symbol": "TMO",
+        "name": "Thermo Fisher Scientific Inc",
+        "weight_pct": 3.72603
+      },
+      {
+        "symbol": "ABT",
+        "name": "Abbott Laboratories",
+        "weight_pct": 3.12324
+      },
+      {
+        "symbol": "GILD",
+        "name": "Gilead Sciences Inc",
+        "weight_pct": 2.95206
+      },
+      {
+        "symbol": "PFE",
+        "name": "Pfizer Inc",
+        "weight_pct": 2.6354698
+      }
+    ],
+    "composite_score": 73.5,
+    "action": "OVERWEIGHT",
+    "warnings": []
+  },
+  {
+    "symbol": "KRE",
+    "name": "State Street SPDR S&P Regional ",
+    "category": "Financial",
+    "technicals": {
+      "current_price": 75.2699966430664,
+      "sma_50": 75.62899948120118,
+      "sma_200": 69.31285840988158,
+      "dist_50_pct": -0.4746893924254647,
+      "dist_200_pct": 8.594564370664504,
+      "rsi_14": 37.104596110490796,
+      "regime": "BULLISH_PULLBACK"
+    },
+    "relative_momentum": {
+      "ret_1m_etf": -1.233437150897132,
+      "ret_1m_spy": -0.39702134928059074,
+      "spread_1m": -0.8364158016165413,
+      "ret_3m_etf": 7.604023992305908,
+      "ret_3m_spy": 4.4579759803143215,
+      "spread_3m": 3.146048011991587,
+      "ret_6m_etf": 17.60601903932686,
+      "ret_6m_spy": 14.155567850717276,
+      "spread_6m": 3.4504511886095823,
+      "ret_12m_etf": 17.79713922108348,
+      "ret_12m_spy": 20.314569743216325,
+      "spread_12m": -2.5174305221328463,
+      "rs_ratio": 94.98724921739452,
+      "rs_momentum": 94.8720765084402,
+      "rrg_quadrant": "LAGGING"
+    },
+    "fundamentals": {
+      "top_single": {
+        "symbol": "CFR",
+        "name": "Cullen/Frost Bankers Inc",
+        "weight_pct": 1.46414
+      },
+      "top3_weight": 4.3075299000000005,
+      "top5_weight": 7.1307998,
+      "top10_weight": 14.108779649999999,
+      "concentration_risk": "LOW",
+      "aum_billions": 4.010872832,
+      "pe_ratio": 12.896977,
+      "dividend_yield_pct": 2.17,
+      "expense_ratio_pct": 0.09
+    },
+    "top_holdings": [
+      {
+        "symbol": "CFR",
+        "name": "Cullen/Frost Bankers Inc",
+        "weight_pct": 1.46414
+      },
+      {
+        "symbol": "SSB",
+        "name": "SouthState Bank Corp",
+        "weight_pct": 1.4268599
+      },
+      {
+        "symbol": "BPOP",
+        "name": "Popular Inc",
+        "weight_pct": 1.41653
+      },
+      {
+        "symbol": "PNFP",
+        "name": "Pinnacle Financial Partners Inc",
+        "weight_pct": 1.41188
+      },
+      {
+        "symbol": "UMBF",
+        "name": "UMB Financial Corp",
+        "weight_pct": 1.4113898999999999
+      },
+      {
+        "symbol": "ASB",
+        "name": "Associated Banc-Corp",
+        "weight_pct": 1.40652
+      },
+      {
+        "symbol": "HOMB",
+        "name": "Home BancShares Inc",
+        "weight_pct": 1.4032499999999999
+      },
+      {
+        "symbol": "CFG",
+        "name": "Citizens Financial Group Inc",
+        "weight_pct": 1.39431
+      },
+      {
+        "symbol": "CBSH",
+        "name": "Commerce Bancshares Inc",
+        "weight_pct": 1.3910299
+      },
+      {
+        "symbol": "HWC",
+        "name": "Hancock Whitney Corp",
+        "weight_pct": 1.38286995
+      }
+    ],
+    "composite_score": 50.1,
+    "action": "NEUTRAL",
+    "warnings": []
+  },
+  {
+    "symbol": "XBI",
+    "name": "State Street SPDR S&P Biotech E",
+    "category": "Health",
+    "technicals": {
+      "current_price": 163.80999755859375,
+      "sma_50": 158.08099975585938,
+      "sma_200": 135.23274021148683,
+      "dist_50_pct": 3.6240900624251227,
+      "dist_200_pct": 21.13190733428585,
+      "rsi_14": 55.895317105486605,
+      "regime": "STRONG_BULLISH"
+    },
+    "relative_momentum": {
+      "ret_1m_etf": 4.09226831112921,
+      "ret_1m_spy": -0.39702134928059074,
+      "spread_1m": 4.489289660409801,
+      "ret_3m_etf": 27.673290017023188,
+      "ret_3m_spy": 4.4579759803143215,
+      "spread_3m": 23.215314036708868,
+      "ret_6m_etf": 28.98898461226804,
+      "ret_6m_spy": 14.155567850717276,
+      "spread_6m": 14.833416761550765,
+      "ret_12m_etf": 72.36801035802227,
+      "ret_12m_spy": 20.314569743216325,
+      "spread_12m": 52.05344061480594,
+      "rs_ratio": 102.81932969372863,
+      "rs_momentum": 99.66330735976096,
+      "rrg_quadrant": "WEAKENING"
+    },
+    "fundamentals": {
+      "top_single": {
+        "symbol": "MRNA",
+        "name": "Moderna Inc",
+        "weight_pct": 2.80607
+      },
+      "top3_weight": 6.19371,
+      "top5_weight": 8.97936,
+      "top10_weight": 15.6303902,
+      "concentration_risk": "LOW",
+      "aum_billions": 11.404576768,
+      "pe_ratio": null,
+      "dividend_yield_pct": 0.34999999,
+      "expense_ratio_pct": 0.09
+    },
+    "top_holdings": [
+      {
+        "symbol": "MRNA",
+        "name": "Moderna Inc",
+        "weight_pct": 2.80607
+      },
+      {
+        "symbol": "TWST",
+        "name": "Twist Bioscience Corp",
+        "weight_pct": 1.8860100000000002
+      },
+      {
+        "symbol": "APGE",
+        "name": "Apogee Therapeutics Inc",
+        "weight_pct": 1.50163
+      },
+      {
+        "symbol": "KYMR",
+        "name": "Kymera Therapeutics Inc Ordinary Shares",
+        "weight_pct": 1.3965699999999999
+      },
+      {
+        "symbol": "HALO",
+        "name": "Halozyme Therapeutics Inc",
+        "weight_pct": 1.38908
+      },
+      {
+        "symbol": "NTRA",
+        "name": "Natera Inc",
+        "weight_pct": 1.36758005
+      },
+      {
+        "symbol": "PRAX",
+        "name": "Praxis Precision Medicines Inc Ordinary Shares",
+        "weight_pct": 1.33837
+      },
+      {
+        "symbol": "ORKA",
+        "name": "Oruka Therapeutics Inc",
+        "weight_pct": 1.3300801
+      },
+      {
+        "symbol": "RVMD",
+        "name": "Revolution Medicines Inc Ordinary Shares",
+        "weight_pct": 1.31095005
+      },
+      {
+        "symbol": "TVTX",
+        "name": "Travere Therapeutics Inc Ordinary Shares",
+        "weight_pct": 1.30405
+      }
+    ],
+    "composite_score": 97.0,
+    "action": "OVERWEIGHT",
+    "warnings": []
+  },
+  {
+    "symbol": "XLI",
+    "name": "State Street Industrial Select ",
+    "category": "Industrials",
+    "technicals": {
+      "current_price": 175.27000427246094,
+      "sma_50": 181.18879974365234,
+      "sma_200": 170.19579513549806,
+      "dist_50_pct": -3.2666453332465206,
+      "dist_200_pct": 2.981395123729791,
+      "rsi_14": 23.652850815438654,
+      "regime": "BULLISH_PULLBACK"
+    },
+    "relative_momentum": {
+      "ret_1m_etf": -5.351543792676905,
+      "ret_1m_spy": -0.39702134928059074,
+      "spread_1m": -4.954522443396314,
+      "ret_3m_etf": 1.1928899509113133,
+      "ret_3m_spy": 4.4579759803143215,
+      "spread_3m": -3.265086029403008,
+      "ret_6m_etf": 3.074134801446826,
+      "ret_6m_spy": 14.155578177770622,
+      "spread_6m": -11.081443376323797,
+      "ret_12m_etf": 17.62329869060375,
+      "ret_12m_spy": 20.31454680030422,
+      "spread_12m": -2.6912481097004726,
+      "rs_ratio": 89.99075908601486,
+      "rs_momentum": 93.60038511239547,
+      "rrg_quadrant": "LAGGING"
+    },
+    "fundamentals": {
+      "top_single": {
+        "symbol": "CAT",
+        "name": "Caterpillar Inc",
+        "weight_pct": 6.67426
+      },
+      "top3_weight": 18.12198,
+      "top5_weight": 25.7533598,
+      "top10_weight": 39.5975795,
+      "concentration_risk": "LOW",
+      "aum_billions": 31.947403264,
+      "pe_ratio": 28.456053,
+      "dividend_yield_pct": 1.17999995,
+      "expense_ratio_pct": 0.09
+    },
+    "top_holdings": [
+      {
+        "symbol": "CAT",
+        "name": "Caterpillar Inc",
+        "weight_pct": 6.67426
+      },
+      {
+        "symbol": "GE",
+        "name": "GE Aerospace",
+        "weight_pct": 6.364459999999999
+      },
+      {
+        "symbol": "RTX",
+        "name": "RTX Corp",
+        "weight_pct": 5.08326
+      },
+      {
+        "symbol": "GEV",
+        "name": "GE Vernova Inc",
+        "weight_pct": 4.3874998
+      },
+      {
+        "symbol": "UNP",
+        "name": "Union Pacific Corp",
+        "weight_pct": 3.24388
+      },
+      {
+        "symbol": "DE",
+        "name": "Deere & Co",
+        "weight_pct": 2.98953
+      },
+      {
+        "symbol": "BA",
+        "name": "Boeing Co",
+        "weight_pct": 2.97642
+      },
+      {
+        "symbol": "ETN",
+        "name": "Eaton Corp PLC",
+        "weight_pct": 2.83576
+      },
+      {
+        "symbol": "UBER",
+        "name": "Uber Technologies Inc",
+        "weight_pct": 2.7983898
+      },
+      {
+        "symbol": "PH",
+        "name": "Parker Hannifin Corp",
+        "weight_pct": 2.2441199
+      }
+    ],
+    "composite_score": 41.7,
+    "action": "UNDERWEIGHT",
+    "warnings": []
+  },
+  {
+    "symbol": "ITA",
+    "name": "iShares U.S. Aerospace & Defens",
+    "category": "Industrials",
+    "technicals": {
+      "current_price": 225.61000061035156,
+      "sma_50": 239.92040008544922,
+      "sma_200": 229.2751792907715,
+      "dist_50_pct": -5.964644719665735,
+      "dist_200_pct": -1.5985937473727452,
+      "rsi_14": 16.929472036094168,
+      "regime": "STRONG_BEARISH"
+    },
+    "relative_momentum": {
+      "ret_1m_etf": -10.025921989889708,
+      "ret_1m_spy": -0.39702134928059074,
+      "spread_1m": -9.628900640609118,
+      "ret_3m_etf": -0.656348006482177,
+      "ret_3m_spy": 4.4579759803143215,
+      "spread_3m": -5.1143239867964985,
+      "ret_6m_etf": -6.642878209290226,
+      "ret_6m_spy": 14.155578177770622,
+      "spread_6m": -20.79845638706085,
+      "ret_12m_etf": 14.448884524924077,
+      "ret_12m_spy": 20.31454680030422,
+      "spread_12m": -5.865662275380146,
+      "rs_ratio": 89.27011749182718,
+      "rs_momentum": 83.80634290217905,
+      "rrg_quadrant": "LAGGING"
+    },
+    "fundamentals": {
+      "top_single": {
+        "symbol": "GE",
+        "name": "GE Aerospace",
+        "weight_pct": 21.590619999999998
+      },
+      "top3_weight": 47.910820599999994,
+      "top5_weight": 57.4521308,
+      "top10_weight": 77.6114008,
+      "concentration_risk": "HIGH",
+      "aum_billions": 13.628640256,
+      "pe_ratio": 34.246128,
+      "dividend_yield_pct": 0.47000000000000003,
+      "expense_ratio_pct": 0.09
+    },
+    "top_holdings": [
+      {
+        "symbol": "GE",
+        "name": "GE Aerospace",
+        "weight_pct": 21.590619999999998
+      },
+      {
+        "symbol": "RTX",
+        "name": "RTX Corp",
+        "weight_pct": 17.2441
+      },
+      {
+        "symbol": "BA",
+        "name": "Boeing Co",
+        "weight_pct": 9.0761006
+      },
+      {
+        "symbol": "GD",
+        "name": "General Dynamics Corp",
+        "weight_pct": 4.82916
+      },
+      {
+        "symbol": "LMT",
+        "name": "Lockheed Martin Corp",
+        "weight_pct": 4.7121502
+      },
+      {
+        "symbol": "NOC",
+        "name": "Northrop Grumman Corp",
+        "weight_pct": 4.41542
+      },
+      {
+        "symbol": "HWM",
+        "name": "Howmet Aerospace Inc",
+        "weight_pct": 4.35468
+      },
+      {
+        "symbol": "TDG",
+        "name": "TransDigm Group Inc",
+        "weight_pct": 4.286779999999999
+      },
+      {
+        "symbol": "LHX",
+        "name": "L3Harris Technologies Inc",
+        "weight_pct": 3.69788
+      },
+      {
+        "symbol": "AXON",
+        "name": "Axon Enterprise Inc",
+        "weight_pct": 3.40451
+      }
+    ],
+    "composite_score": 6.6,
+    "action": "AVOID",
+    "warnings": [
+      "High concentration: Top single holding (GE) is 21.6%"
+    ]
+  },
+  {
+    "symbol": "XLC",
+    "name": "State Street Communication Serv",
+    "category": "Communications",
+    "technicals": {
+      "current_price": 112.02999877929688,
+      "sma_50": 110.5877995300293,
+      "sma_200": 113.60727443695069,
+      "dist_50_pct": 1.3041214812091084,
+      "dist_200_pct": -1.3883579774895183,
+      "rsi_14": 54.43874058289099,
+      "regime": "BEARISH_RECOVERY"
+    },
+    "relative_momentum": {
+      "ret_1m_etf": 0.7011224982443887,
+      "ret_1m_spy": -0.39702134928059074,
+      "spread_1m": 1.0981438475249794,
+      "ret_3m_etf": 1.108517065957293,
+      "ret_3m_spy": 4.4579759803143215,
+      "spread_3m": -3.3494589143570286,
+      "ret_6m_etf": -4.15117434425717,
+      "ret_6m_spy": 14.155578177770622,
+      "spread_6m": -18.306752522027793,
+      "ret_12m_etf": -1.0908502073596837,
+      "ret_12m_spy": 20.314558271759186,
+      "spread_12m": -21.40540847911887,
+      "rs_ratio": 98.27383278630644,
+      "rs_momentum": 103.57160059694155,
+      "rrg_quadrant": "IMPROVING"
+    },
+    "fundamentals": {
+      "top_single": {
+        "symbol": "META",
+        "name": "Meta Platforms Inc Class A",
+        "weight_pct": 16.76507
+      },
+      "top3_weight": 35.265059400000005,
+      "top5_weight": 45.533919700000006,
+      "top10_weight": 69.32526,
+      "concentration_risk": "MODERATE",
+      "aum_billions": 22.43017728,
+      "pe_ratio": 15.456158,
+      "dividend_yield_pct": 1.28,
+      "expense_ratio_pct": 0.09
+    },
+    "top_holdings": [
+      {
+        "symbol": "META",
+        "name": "Meta Platforms Inc Class A",
+        "weight_pct": 16.76507
+      },
+      {
+        "symbol": "GOOGL",
+        "name": "Alphabet Inc Class A",
+        "weight_pct": 10.296699400000001
+      },
+      {
+        "symbol": "GOOG",
+        "name": "Alphabet Inc Class C",
+        "weight_pct": 8.20329
+      },
+      {
+        "symbol": "T",
+        "name": "AT&T Inc",
+        "weight_pct": 5.2501
+      },
+      {
+        "symbol": "VZ",
+        "name": "Verizon Communications Inc",
+        "weight_pct": 5.018760299999999
+      },
+      {
+        "symbol": "CMCSA",
+        "name": "Comcast Corp Class A",
+        "weight_pct": 4.863230000000001
+      },
+      {
+        "symbol": "NFLX",
+        "name": "Netflix Inc",
+        "weight_pct": 4.8607703
+      },
+      {
+        "symbol": "DIS",
+        "name": "The Walt Disney Co",
+        "weight_pct": 4.82495
+      },
+      {
+        "symbol": "WBD",
+        "name": "Warner Bros. Discovery Inc Ordinary Shares - Class A",
+        "weight_pct": 4.6531
+      },
+      {
+        "symbol": "TMUS",
+        "name": "T-Mobile US Inc",
+        "weight_pct": 4.58929
+      }
+    ],
+    "composite_score": 42.0,
+    "action": "UNDERWEIGHT",
+    "warnings": []
+  },
+  {
+    "symbol": "XLF",
+    "name": "State Street Financial Select S",
+    "category": "Financial",
+    "technicals": {
+      "current_price": 58.099998474121094,
+      "sma_50": 56.85840003967285,
+      "sma_200": 53.2197611618042,
+      "dist_50_pct": 2.183667555861435,
+      "dist_200_pct": 9.169972216672484,
+      "rsi_14": 54.42174222755069,
+      "regime": "STRONG_BULLISH"
+    },
+    "relative_momentum": {
+      "ret_1m_etf": 0.8680555785511856,
+      "ret_1m_spy": -0.39702134928059074,
+      "spread_1m": 1.2650769278317764,
+      "ret_3m_etf": 12.186880044124715,
+      "ret_3m_spy": 4.4579759803143215,
+      "spread_3m": 7.728904063810393,
+      "ret_6m_etf": 16.437950664252664,
+      "ret_6m_spy": 14.155567850717276,
+      "spread_6m": 2.2823828135353885,
+      "ret_12m_etf": 11.177005391117923,
+      "ret_12m_spy": 20.314569743216325,
+      "spread_12m": -9.137564352098405,
+      "rs_ratio": 101.42313127315936,
+      "rs_momentum": 98.22669939514972,
+      "rrg_quadrant": "WEAKENING"
+    },
+    "fundamentals": {
+      "top_single": {
+        "symbol": "JPM",
+        "name": "JPMorgan Chase & Co",
+        "weight_pct": 11.68887
+      },
+      "top3_weight": 30.72654,
+      "top5_weight": 41.50833,
+      "top10_weight": 56.5391701,
+      "concentration_risk": "MODERATE",
+      "aum_billions": 54.59236864,
+      "pe_ratio": 16.47452,
+      "dividend_yield_pct": 1.39999995,
+      "expense_ratio_pct": 0.09
+    },
+    "top_holdings": [
+      {
+        "symbol": "JPM",
+        "name": "JPMorgan Chase & Co",
+        "weight_pct": 11.68887
+      },
+      {
+        "symbol": "BRK-B",
+        "name": "Berkshire Hathaway Inc Class B",
+        "weight_pct": 11.32288
+      },
+      {
+        "symbol": "V",
+        "name": "Visa Inc Class A",
+        "weight_pct": 7.714790000000001
+      },
+      {
+        "symbol": "MA",
+        "name": "Mastercard Inc Class A",
+        "weight_pct": 5.82669
+      },
+      {
+        "symbol": "BAC",
+        "name": "Bank of America Corp",
+        "weight_pct": 4.9551
+      },
+      {
+        "symbol": "GS",
+        "name": "The Goldman Sachs Group Inc",
+        "weight_pct": 3.70778
+      },
+      {
+        "symbol": "WFC",
+        "name": "Wells Fargo & Co",
+        "weight_pct": 3.2392700000000003
+      },
+      {
+        "symbol": "MS",
+        "name": "Morgan Stanley",
+        "weight_pct": 3.1334500000000003
+      },
+      {
+        "symbol": "C",
+        "name": "Citigroup Inc",
+        "weight_pct": 2.7506000999999998
+      },
+      {
+        "symbol": "SCHW",
+        "name": "Charles Schwab Corp",
+        "weight_pct": 2.1997400000000003
+      }
+    ],
+    "composite_score": 70.3,
+    "action": "OVERWEIGHT",
+    "warnings": []
+  },
+  {
+    "symbol": "SMH",
+    "name": "VanEck Semiconductor ETF",
+    "category": "Technology",
+    "technicals": {
+      "current_price": 567.010009765625,
+      "sma_50": 573.9660003662109,
+      "sma_200": 477.2703256225586,
+      "dist_50_pct": -1.211916837608451,
+      "dist_200_pct": 18.80269510282431,
+      "rsi_14": 39.87580158762419,
+      "regime": "BULLISH_PULLBACK"
+    },
+    "relative_momentum": {
+      "ret_1m_etf": -2.6926380835275543,
+      "ret_1m_spy": -0.39702134928059074,
+      "spread_1m": -2.2956167342469636,
+      "ret_3m_etf": -5.207630864223612,
+      "ret_3m_spy": 4.4579759803143215,
+      "spread_3m": -9.665606844537933,
+      "ret_6m_etf": 43.77615355781246,
+      "ret_6m_spy": 14.155578177770622,
+      "spread_6m": 29.620575380041835,
+      "ret_12m_etf": 93.93559071557533,
+      "ret_12m_spy": 20.314569743216325,
+      "spread_12m": 73.621020972359,
+      "rs_ratio": 97.17085297640554,
+      "rs_momentum": 101.87097782770313,
+      "rrg_quadrant": "IMPROVING"
+    },
+    "fundamentals": {
+      "top_single": {
+        "symbol": "NVDA",
+        "name": "NVIDIA Corp",
+        "weight_pct": 22.62537
+      },
+      "top3_weight": 38.3861103,
+      "top5_weight": 49.1992501,
+      "top10_weight": 66.5767799,
+      "concentration_risk": "HIGH",
+      "aum_billions": 67.787030528,
+      "pe_ratio": 38.727318,
+      "dividend_yield_pct": 0.2,
+      "expense_ratio_pct": 0.09
+    },
+    "top_holdings": [
+      {
+        "symbol": "NVDA",
+        "name": "NVIDIA Corp",
+        "weight_pct": 22.62537
+      },
+      {
+        "symbol": "TSM",
+        "name": "Taiwan Semiconductor Manufacturing Co Ltd ADR",
+        "weight_pct": 9.6530505
+      },
+      {
+        "symbol": "AVGO",
+        "name": "Broadcom Inc",
+        "weight_pct": 6.1076898
+      },
+      {
+        "symbol": "MU",
+        "name": "Micron Technology Inc",
+        "weight_pct": 5.450369800000001
+      },
+      {
+        "symbol": "AMD",
+        "name": "Advanced Micro Devices Inc",
+        "weight_pct": 5.36277
+      },
+      {
+        "symbol": "LRCX",
+        "name": "Lam Research Corp",
+        "weight_pct": 4.399
+      },
+      {
+        "symbol": "AMAT",
+        "name": "Applied Materials Inc",
+        "weight_pct": 4.35639
+      },
+      {
+        "symbol": "ADI",
+        "name": "Analog Devices Inc",
+        "weight_pct": 4.32092
+      },
+      {
+        "symbol": "TXN",
+        "name": "Texas Instruments Inc",
+        "weight_pct": 4.3012198
+      }
+    ],
+    "composite_score": 79.7,
+    "action": "STRONG_OVERWEIGHT",
+    "warnings": [
+      "High concentration: Top single holding (NVDA) is 22.6%"
+    ]
+  },
+  {
+    "symbol": "XLE",
+    "name": "State Street Energy Select Sect",
+    "category": "Equity Energy",
+    "technicals": {
+      "current_price": 64.05999755859375,
+      "sma_50": 59.20300025939942,
+      "sma_200": 54.373580894470216,
+      "dist_50_pct": 8.203971551970813,
+      "dist_200_pct": 17.81456454546042,
+      "rsi_14": 59.97302974747906,
+      "regime": "STRONG_BULLISH"
+    },
+    "relative_momentum": {
+      "ret_1m_etf": 11.408691406250004,
+      "ret_1m_spy": -0.39702134928059074,
+      "spread_1m": 11.805712755530596,
+      "ret_3m_etf": 10.615435031411845,
+      "ret_3m_spy": 4.4579759803143215,
+      "spread_3m": 6.157459051097525,
+      "ret_6m_etf": 15.311705547045085,
+      "ret_6m_spy": 14.155567850717276,
+      "spread_6m": 1.156137696327808,
+      "ret_12m_etf": 51.22727924800537,
+      "ret_12m_spy": 20.314569743216325,
+      "spread_12m": 30.91270950478904,
+      "rs_ratio": 106.22384955063897,
+      "rs_momentum": 95.42239122107512,
+      "rrg_quadrant": "WEAKENING"
+    },
+    "fundamentals": {
+      "top_single": {
+        "symbol": "XOM",
+        "name": "ExxonMobil Holdings Corp",
+        "weight_pct": 19.859721
+      },
+      "top3_weight": 40.976861,
+      "top5_weight": 51.727861,
+      "top10_weight": 73.235841,
+      "concentration_risk": "HIGH",
+      "aum_billions": 41.4381056,
+      "pe_ratio": 17.77082,
+      "dividend_yield_pct": 2.3699999,
+      "expense_ratio_pct": 0.09
+    },
+    "top_holdings": [
+      {
+        "symbol": "XOM",
+        "name": "ExxonMobil Holdings Corp",
+        "weight_pct": 19.859721
+      },
+      {
+        "symbol": "CVX",
+        "name": "Chevron Corp",
+        "weight_pct": 14.88949
+      },
+      {
+        "symbol": "COP",
+        "name": "ConocoPhillips",
+        "weight_pct": 6.22765
+      },
+      {
+        "symbol": "MPC",
+        "name": "Marathon Petroleum Corp",
+        "weight_pct": 5.41954
+      },
+      {
+        "symbol": "PSX",
+        "name": "Phillips 66",
+        "weight_pct": 5.33146
+      },
+      {
+        "symbol": "VLO",
+        "name": "Valero Energy Corp",
+        "weight_pct": 5.0717
+      },
+      {
+        "symbol": "SLB",
+        "name": "SLB Ltd",
+        "weight_pct": 4.87644
+      },
+      {
+        "symbol": "EOG",
+        "name": "EOG Resources Inc",
+        "weight_pct": 4.13483
+      },
+      {
+        "symbol": "WMB",
+        "name": "Williams Companies Inc",
+        "weight_pct": 3.7765899999999997
+      },
+      {
+        "symbol": "KMI",
+        "name": "Kinder Morgan Inc Class P",
+        "weight_pct": 3.64842
+      }
+    ],
+    "composite_score": 77.0,
+    "action": "OVERWEIGHT",
+    "warnings": [
+      "High concentration: Top single holding (XOM) is 19.9%"
+    ]
+  },
+  {
+    "symbol": "XLU",
+    "name": "State Street Utilities Select S",
+    "category": "Utilities",
+    "technicals": {
+      "current_price": 43.08000183105469,
+      "sma_50": 44.44000015258789,
+      "sma_200": 44.29064573287964,
+      "dist_50_pct": -3.060302243167312,
+      "dist_200_pct": -2.733407657062492,
+      "rsi_14": 37.149546870877806,
+      "regime": "STRONG_BEARISH"
+    },
+    "relative_momentum": {
+      "ret_1m_etf": -1.2153147715642798,
+      "ret_1m_spy": -0.39702134928059074,
+      "spread_1m": -0.8182934222836891,
+      "ret_3m_etf": -0.3789303571239522,
+      "ret_3m_spy": 4.4579759803143215,
+      "spread_3m": -4.836906337438274,
+      "ret_6m_etf": -6.812806620856826,
+      "ret_6m_spy": 14.155567850717276,
+      "spread_6m": -20.9683744715741,
+      "ret_12m_etf": 6.1012549981158015,
+      "ret_12m_spy": 20.314558271759186,
+      "spread_12m": -14.213303273643385,
+      "rs_ratio": 94.17119689206403,
+      "rs_momentum": 100.47486400123164,
+      "rrg_quadrant": "IMPROVING"
+    },
+    "fundamentals": {
+      "top_single": {
+        "symbol": "NEE",
+        "name": "NextEra Energy Inc",
+        "weight_pct": 13.049420000000001
+      },
+      "top3_weight": 27.693060000000003,
+      "top5_weight": 39.4312003,
+      "top10_weight": 58.5921201,
+      "concentration_risk": "MODERATE",
+      "aum_billions": 21.836873728,
+      "pe_ratio": 19.397755,
+      "dividend_yield_pct": 2.8299998,
+      "expense_ratio_pct": 0.09
+    },
+    "top_holdings": [
+      {
+        "symbol": "NEE",
+        "name": "NextEra Energy Inc",
+        "weight_pct": 13.049420000000001
+      },
+      {
+        "symbol": "SO",
+        "name": "Southern Co",
+        "weight_pct": 7.5392
+      },
+      {
+        "symbol": "DUK",
+        "name": "Duke Energy Corp",
+        "weight_pct": 7.104439999999999
+      },
+      {
+        "symbol": "CEG",
+        "name": "Constellation Energy Corp",
+        "weight_pct": 6.67553
+      },
+      {
+        "symbol": "AEP",
+        "name": "American Electric Power Co Inc",
+        "weight_pct": 5.0626103
+      },
+      {
+        "symbol": "D",
+        "name": "Dominion Energy Inc",
+        "weight_pct": 4.41191
+      },
+      {
+        "symbol": "SRE",
+        "name": "Sempra",
+        "weight_pct": 4.0588196
+      },
+      {
+        "symbol": "ETR",
+        "name": "Entergy Corp",
+        "weight_pct": 3.6994502
+      },
+      {
+        "symbol": "XEL",
+        "name": "Xcel Energy Inc",
+        "weight_pct": 3.59098
+      },
+      {
+        "symbol": "EXC",
+        "name": "Exelon Corp",
+        "weight_pct": 3.39976
+      }
+    ],
+    "composite_score": 26.1,
+    "action": "AVOID",
+    "warnings": []
+  },
+  {
+    "symbol": "XLP",
+    "name": "State Street Consumer Staples S",
+    "category": "Consumer Defensive",
+    "technicals": {
+      "current_price": 84.58000183105469,
+      "sma_50": 85.03219985961914,
+      "sma_200": 82.64641174316407,
+      "dist_50_pct": -0.5317962246196073,
+      "dist_200_pct": 2.3395935130245515,
+      "rsi_14": 49.495974176896254,
+      "regime": "BULLISH_PULLBACK"
+    },
+    "relative_momentum": {
+      "ret_1m_etf": -0.6343995513428569,
+      "ret_1m_spy": -0.39702134928059074,
+      "spread_1m": -0.23737820206226612,
+      "ret_3m_etf": 2.524219876163425,
+      "ret_3m_spy": 4.4579759803143215,
+      "spread_3m": -1.9337561041508966,
+      "ret_6m_etf": -0.37659136067589305,
+      "ret_6m_spy": 14.155567850717276,
+      "spread_6m": -14.53215921139317,
+      "ret_12m_etf": 7.48830807820049,
+      "ret_12m_spy": 20.314569743216325,
+      "spread_12m": -12.826261665015837,
+      "rs_ratio": 93.94516876089136,
+      "rs_momentum": 96.93874880101758,
+      "rrg_quadrant": "LAGGING"
+    },
+    "fundamentals": {
+      "top_single": {
+        "symbol": "WMT",
+        "name": "Walmart Inc",
+        "weight_pct": 9.820639
+      },
+      "top3_weight": 26.099789,
+      "top5_weight": 39.553649,
+      "top10_weight": 61.739459,
+      "concentration_risk": "LOW",
+      "aum_billions": 14.524716032,
+      "pe_ratio": 25.019938,
+      "dividend_yield_pct": 2.5899999,
+      "expense_ratio_pct": 0.09
+    },
+    "top_holdings": [
+      {
+        "symbol": "WMT",
+        "name": "Walmart Inc",
+        "weight_pct": 9.820639
+      },
+      {
+        "symbol": "COST",
+        "name": "Costco Wholesale Corp",
+        "weight_pct": 8.94496
+      },
+      {
+        "symbol": "KO",
+        "name": "Coca-Cola Co",
+        "weight_pct": 7.33419
+      },
+      {
+        "symbol": "PG",
+        "name": "Procter & Gamble Co",
+        "weight_pct": 7.21831
+      },
+      {
+        "symbol": "PM",
+        "name": "Philip Morris International Inc",
+        "weight_pct": 6.23555
+      },
+      {
+        "symbol": "TGT",
+        "name": "Target Corp",
+        "weight_pct": 4.656020000000001
+      },
+      {
+        "symbol": "CL",
+        "name": "Colgate-Palmolive Co",
+        "weight_pct": 4.51784
+      },
+      {
+        "symbol": "PEP",
+        "name": "PepsiCo Inc",
+        "weight_pct": 4.39961
+      },
+      {
+        "symbol": "MDLZ",
+        "name": "Mondelez International Inc Class A",
+        "weight_pct": 4.37564
+      },
+      {
+        "symbol": "MO",
+        "name": "Altria Group Inc",
+        "weight_pct": 4.2367
+      }
+    ],
+    "composite_score": 38.6,
+    "action": "UNDERWEIGHT",
+    "warnings": []
+  },
+  {
+    "symbol": "XLK",
+    "name": "State Street Technology Select ",
+    "category": "Technology",
+    "technicals": {
+      "current_price": 187.27999877929688,
+      "sma_50": 182.6072006225586,
+      "sma_200": 160.1238586807251,
+      "dist_50_pct": 2.5589342264748627,
+      "dist_200_pct": 16.95945896027842,
+      "rsi_14": 44.857895915946486,
+      "regime": "STRONG_BULLISH"
+    },
+    "relative_momentum": {
+      "ret_1m_etf": -0.36708114961179206,
+      "ret_1m_spy": -0.39702134928059074,
+      "spread_1m": 0.029940199668798684,
+      "ret_3m_etf": 1.8043811216696737,
+      "ret_3m_spy": 4.4579759803143215,
+      "spread_3m": -2.653594858644648,
+      "ret_6m_etf": 34.32773976523256,
+      "ret_6m_spy": 14.155567850717276,
+      "spread_6m": 20.172171914515282,
+      "ret_12m_etf": 43.241934226441536,
+      "ret_12m_spy": 20.314569743216325,
+      "spread_12m": 22.92736448322521,
+      "rs_ratio": 102.01284833591257,
+      "rs_momentum": 103.64184754877651,
+      "rrg_quadrant": "LEADING"
+    },
+    "fundamentals": {
+      "top_single": {
+        "symbol": "NVDA",
+        "name": "NVIDIA Corp",
+        "weight_pct": 14.363189000000002
+      },
+      "top3_weight": 36.984909,
+      "top5_weight": 45.693709,
+      "top10_weight": 60.6628791,
+      "concentration_risk": "MODERATE",
+      "aum_billions": 121.437732864,
+      "pe_ratio": 33.15227,
+      "dividend_yield_pct": 0.43,
+      "expense_ratio_pct": 0.09
+    },
+    "top_holdings": [
+      {
+        "symbol": "NVDA",
+        "name": "NVIDIA Corp",
+        "weight_pct": 14.363189000000002
+      },
+      {
+        "symbol": "AAPL",
+        "name": "Apple Inc",
+        "weight_pct": 12.499839999999999
+      },
+      {
+        "symbol": "MSFT",
+        "name": "Microsoft Corp",
+        "weight_pct": 10.121879999999999
+      },
+      {
+        "symbol": "AVGO",
+        "name": "Broadcom Inc",
+        "weight_pct": 4.70974
+      },
+      {
+        "symbol": "MU",
+        "name": "Micron Technology Inc",
+        "weight_pct": 3.99906
+      },
+      {
+        "symbol": "AMD",
+        "name": "Advanced Micro Devices Inc",
+        "weight_pct": 3.92825
+      },
+      {
+        "symbol": "INTC",
+        "name": "Intel Corp",
+        "weight_pct": 2.8994901
+      },
+      {
+        "symbol": "CSCO",
+        "name": "Cisco Systems Inc",
+        "weight_pct": 2.86219
+      },
+      {
+        "symbol": "PLTR",
+        "name": "Palantir Technologies Inc Ordinary Shares - Class A",
+        "weight_pct": 2.80656
+      },
+      {
+        "symbol": "LRCX",
+        "name": "Lam Research Corp",
+        "weight_pct": 2.47268
+      }
+    ],
+    "composite_score": 86.3,
+    "action": "STRONG_OVERWEIGHT",
+    "warnings": []
+  },
+  {
+    "symbol": "XLB",
+    "name": "State Street Materials Select S",
+    "category": "Natural Resources",
+    "technicals": {
+      "current_price": 52.439998626708984,
+      "sma_50": 51.822799835205075,
+      "sma_200": 49.82103401184082,
+      "dist_50_pct": 1.1909792474867897,
+      "dist_200_pct": 5.256744800290014,
+      "rsi_14": 51.80502382460683,
+      "regime": "STRONG_BULLISH"
+    },
+    "relative_momentum": {
+      "ret_1m_etf": -0.7945553893170532,
+      "ret_1m_spy": -0.39702134928059074,
+      "spread_1m": -0.3975340400364624,
+      "ret_3m_etf": 5.356445154578582,
+      "ret_3m_spy": 4.4579759803143215,
+      "spread_3m": 0.8984691742642603,
+      "ret_6m_etf": 5.761466531896775,
+      "ret_6m_spy": 14.155567850717276,
+      "spread_6m": -8.394101318820502,
+      "ret_12m_etf": 16.127167527515173,
+      "ret_12m_spy": 20.314569743216325,
+      "spread_12m": -4.187402215701153,
+      "rs_ratio": 98.18563256051377,
+      "rs_momentum": 102.9751687315777,
+      "rrg_quadrant": "IMPROVING"
+    },
+    "fundamentals": {
+      "top_single": {
+        "symbol": "LIN",
+        "name": "Linde PLC",
+        "weight_pct": 13.134870000000001
+      },
+      "top3_weight": 27.2621,
+      "top5_weight": 36.99977,
+      "top10_weight": 59.21061,
+      "concentration_risk": "MODERATE",
+      "aum_billions": 8.752943104,
+      "pe_ratio": 24.471483,
+      "dividend_yield_pct": 1.6099999999999999,
+      "expense_ratio_pct": 0.09
+    },
+    "top_holdings": [
+      {
+        "symbol": "LIN",
+        "name": "Linde PLC",
+        "weight_pct": 13.134870000000001
+      },
+      {
+        "symbol": "NEM",
+        "name": "Newmont Corp",
+        "weight_pct": 7.8091099999999996
+      },
+      {
+        "symbol": "FCX",
+        "name": "Freeport-McMoRan Inc",
+        "weight_pct": 6.31812
+      },
+      {
+        "symbol": "CTVA",
+        "name": "Corteva Inc",
+        "weight_pct": 4.9064297
+      },
+      {
+        "symbol": "APD",
+        "name": "Air Products and Chemicals Inc",
+        "weight_pct": 4.831240299999999
+      },
+      {
+        "symbol": "SHW",
+        "name": "Sherwin-Williams Co",
+        "weight_pct": 4.81254
+      },
+      {
+        "symbol": "ECL",
+        "name": "Ecolab Inc",
+        "weight_pct": 4.75711
+      },
+      {
+        "symbol": "NUE",
+        "name": "Nucor Corp",
+        "weight_pct": 4.30225
+      },
+      {
+        "symbol": "VMC",
+        "name": "Vulcan Materials Co",
+        "weight_pct": 4.26784
+      },
+      {
+        "symbol": "CRH",
+        "name": "CRH PLC",
+        "weight_pct": 4.0710999999999995
+      }
+    ],
+    "composite_score": 71.2,
+    "action": "OVERWEIGHT",
+    "warnings": []
+  },
+  {
+    "symbol": "XHB",
+    "name": "State Street SPDR S&P Homebuild",
+    "category": "Consumer Cyclical",
+    "technicals": {
+      "current_price": 103.25,
+      "sma_50": 107.76019973754883,
+      "sma_200": 106.69887767791748,
+      "dist_50_pct": -4.1854040253576645,
+      "dist_200_pct": -3.2323467247034277,
+      "rsi_14": 35.453476898855314,
+      "regime": "STRONG_BEARISH"
+    },
+    "relative_momentum": {
+      "ret_1m_etf": -6.814081988996867,
+      "ret_1m_spy": -0.39702134928059074,
+      "spread_1m": -6.417060639716277,
+      "ret_3m_etf": 0.10551879185014545,
+      "ret_3m_spy": 4.4579759803143215,
+      "spread_3m": -4.352457188464176,
+      "ret_6m_etf": -1.4144032523698669,
+      "ret_6m_spy": 14.155567850717276,
+      "spread_6m": -15.569971103087143,
+      "ret_12m_etf": -12.838917586526788,
+      "ret_12m_spy": 20.314569743216325,
+      "spread_12m": -33.153487329743115,
+      "rs_ratio": 92.66240810047331,
+      "rs_momentum": 100.0888641817891,
+      "rrg_quadrant": "IMPROVING"
+    },
+    "fundamentals": {
+      "top_single": {
+        "symbol": "IBP",
+        "name": "Installed Building Products Inc",
+        "weight_pct": 4.4179200000000005
+      },
+      "top3_weight": 12.96139,
+      "top5_weight": 20.94053,
+      "top10_weight": 39.56397,
+      "concentration_risk": "LOW",
+      "aum_billions": 1.33182272,
+      "pe_ratio": 19.599527,
+      "dividend_yield_pct": 0.77,
+      "expense_ratio_pct": 0.09
+    },
+    "top_holdings": [
+      {
+        "symbol": "IBP",
+        "name": "Installed Building Products Inc",
+        "weight_pct": 4.4179200000000005
+      },
+      {
+        "symbol": "OC",
+        "name": "Owens-Corning Inc",
+        "weight_pct": 4.27213
+      },
+      {
+        "symbol": "ALLE",
+        "name": "Allegion PLC",
+        "weight_pct": 4.2713399999999995
+      },
+      {
+        "symbol": "SKY",
+        "name": "Champion Homes Inc",
+        "weight_pct": 4.05305
+      },
+      {
+        "symbol": "WSM",
+        "name": "Williams-Sonoma Inc",
+        "weight_pct": 3.9260900000000003
+      },
+      {
+        "symbol": "PHM",
+        "name": "PulteGroup Inc",
+        "weight_pct": 3.7948299999999997
+      },
+      {
+        "symbol": "CSL",
+        "name": "Carlisle Companies Inc",
+        "weight_pct": 3.7624999999999997
+      },
+      {
+        "symbol": "WMS",
+        "name": "Advanced Drainage Systems Inc",
+        "weight_pct": 3.73082
+      },
+      {
+        "symbol": "TOL",
+        "name": "Toll Brothers Inc",
+        "weight_pct": 3.6762099999999998
+      },
+      {
+        "symbol": "HD",
+        "name": "The Home Depot Inc",
+        "weight_pct": 3.65908
+      }
+    ],
+    "composite_score": 22.0,
+    "action": "AVOID",
+    "warnings": []
+  },
+  {
+    "symbol": "XOP",
+    "name": "State Street SPDR S&P Oil & Gas",
+    "category": "Equity Energy",
+    "technicals": {
+      "current_price": 190.7100067138672,
+      "sma_50": 173.57280029296874,
+      "sma_200": 157.55422718048095,
+      "dist_50_pct": 9.873209622690315,
+      "dist_200_pct": 21.044043137862456,
+      "rsi_14": 64.21948137784327,
+      "regime": "STRONG_BULLISH"
+    },
+    "relative_momentum": {
+      "ret_1m_etf": 14.609383238623085,
+      "ret_1m_spy": -0.39702134928059074,
+      "spread_1m": 15.006404587903678,
+      "ret_3m_etf": 13.810044672167043,
+      "ret_3m_spy": 4.4579759803143215,
+      "spread_3m": 9.352068691852722,
+      "ret_6m_etf": 18.906777018926824,
+      "ret_6m_spy": 14.155578177770622,
+      "spread_6m": 4.751198841156201,
+      "ret_12m_etf": 50.525365866465876,
+      "ret_12m_spy": 20.31454680030422,
+      "spread_12m": 30.210819066161655,
+      "rs_ratio": 106.75755346584646,
+      "rs_momentum": 97.5324608683271,
+      "rrg_quadrant": "WEAKENING"
+    },
+    "fundamentals": {
+      "top_single": {
+        "symbol": "PBF",
+        "name": "PBF Energy Inc Class A",
+        "weight_pct": 3.80104
+      },
+      "top3_weight": 10.32899,
+      "top5_weight": 16.5570602,
+      "top10_weight": 30.3684403,
+      "concentration_risk": "LOW",
+      "aum_billions": 3.986409216,
+      "pe_ratio": 11.026562,
+      "dividend_yield_pct": 1.72,
+      "expense_ratio_pct": 0.09
+    },
+    "top_holdings": [
+      {
+        "symbol": "PBF",
+        "name": "PBF Energy Inc Class A",
+        "weight_pct": 3.80104
+      },
+      {
+        "symbol": "DK",
+        "name": "Delek US Holdings Inc Registered Shs Stock Settlement",
+        "weight_pct": 3.3445099999999996
+      },
+      {
+        "symbol": "DINO",
+        "name": "HF Sinclair Corp",
+        "weight_pct": 3.18344
+      },
+      {
+        "symbol": "MPC",
+        "name": "Marathon Petroleum Corp",
+        "weight_pct": 3.1435102
+      },
+      {
+        "symbol": "VLO",
+        "name": "Valero Energy Corp",
+        "weight_pct": 3.08456
+      },
+      {
+        "symbol": "PARR",
+        "name": "Par Pacific Holdings Inc",
+        "weight_pct": 3.0742599999999998
+      },
+      {
+        "symbol": "PSX",
+        "name": "Phillips 66",
+        "weight_pct": 3.0082999999999998
+      },
+      {
+        "symbol": "PR",
+        "name": "Permian Resources Corp Class A",
+        "weight_pct": 2.6168899999999997
+      },
+      {
+        "symbol": "CRGY",
+        "name": "Crescent Energy Co Class A",
+        "weight_pct": 2.59169
+      },
+      {
+        "symbol": "CLMT",
+        "name": "Calumet Inc",
+        "weight_pct": 2.5202401
+      }
+    ],
+    "composite_score": 86.1,
+    "action": "OVERWEIGHT",
+    "warnings": []
+  },
+  {
+    "symbol": "GDX",
+    "name": "VanEck Gold Miners ETF",
+    "category": "Equity Precious Metals",
+    "technicals": {
+      "current_price": 99.26000213623047,
+      "sma_50": 84.41379974365235,
+      "sma_200": 89.7957963180542,
+      "dist_50_pct": 17.587411581593337,
+      "dist_200_pct": 10.539698077462688,
+      "rsi_14": 58.78426929959256,
+      "regime": "STRONG_BEARISH"
+    },
+    "relative_momentum": {
+      "ret_1m_etf": 10.423854500171537,
+      "ret_1m_spy": -0.39702134928059074,
+      "spread_1m": 10.820875849452127,
+      "ret_3m_etf": 26.17262545636232,
+      "ret_3m_spy": 4.4579759803143215,
+      "spread_3m": 21.714649476048,
+      "ret_6m_etf": -3.1042563738659434,
+      "ret_6m_spy": 14.155578177770622,
+      "spread_6m": -17.259834551636565,
+      "ret_12m_etf": 50.70983085088885,
+      "ret_12m_spy": 20.314558271759186,
+      "spread_12m": 30.39527257912966,
+      "rs_ratio": 106.53355426664811,
+      "rs_momentum": 98.66355163906152,
+      "rrg_quadrant": "WEAKENING"
+    },
+    "fundamentals": {
+      "top_single": {
+        "symbol": "NEM",
+        "name": "Newmont Corp",
+        "weight_pct": 10.7201
+      },
+      "top3_weight": 28.80011,
+      "top5_weight": 39.85315,
+      "top10_weight": 58.3026396,
+      "concentration_risk": "LOW",
+      "aum_billions": 30.543091712,
+      "pe_ratio": 12.7394285,
+      "dividend_yield_pct": 0.64,
+      "expense_ratio_pct": 0.09
+    },
+    "top_holdings": [
+      {
+        "symbol": "NEM",
+        "name": "Newmont Corp",
+        "weight_pct": 10.7201
+      },
+      {
+        "symbol": "AEM.TO",
+        "name": "Agnico Eagle Mines Ltd",
+        "weight_pct": 10.6572
+      },
+      {
+        "symbol": "ABX.TO",
+        "name": "Barrick Mining Corp",
+        "weight_pct": 7.42281
+      },
+      {
+        "symbol": "WPM.TO",
+        "name": "Wheaton Precious Metals Corp",
+        "weight_pct": 5.75105
+      },
+      {
+        "symbol": "AU",
+        "name": "Anglogold Ashanti PLC",
+        "weight_pct": 5.30199
+      },
+      {
+        "symbol": "FNV.TO",
+        "name": "Franco-Nevada Corp",
+        "weight_pct": 4.693
+      },
+      {
+        "symbol": "K.TO",
+        "name": "Kinross Gold Corp",
+        "weight_pct": 4.3720998
+      },
+      {
+        "symbol": "GFI",
+        "name": "Gold Fields Ltd ADR",
+        "weight_pct": 4.1827597
+      },
+      {
+        "symbol": "PAAS.TO",
+        "name": "Pan American Silver Corp",
+        "weight_pct": 2.63764
+      },
+      {
+        "symbol": "NST.AX",
+        "name": "Northern Star Resources Ltd",
+        "weight_pct": 2.5639901
+      }
+    ],
+    "composite_score": 52.8,
+    "action": "NEUTRAL",
+    "warnings": []
+  }
+]

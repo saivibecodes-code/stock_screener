@@ -1,0 +1,110 @@
+{
+  "version": "1.0-SectorRotation",
+  "created_at": "2026-09-06T10:51:32.376010",
+  "last_updated": "2026-09-06T10:51:32.790312",
+  "initial_capital": 1000.0,
+  "cash": 50.0,
+  "market_regime": "BULL_MARKET",
+  "positions": {
+    "XLK": {
+      "shares": 1.268154643037379,
+      "cost_basis_per_share": 187.27999877929688,
+      "total_cost": 237.5,
+      "first_bought_at": "2026-09-06T10:51:32.790261",
+      "last_updated": "2026-09-06T10:51:32.790261",
+      "composite_score": 86.3,
+      "action": "STRONG_OVERWEIGHT",
+      "rrg_quadrant": "LEADING",
+      "sector": "Technology",
+      "role": "OFFENSIVE_LEADERSHIP"
+    },
+    "XLE": {
+      "shares": 3.7074618959010404,
+      "cost_basis_per_share": 64.05999755859375,
+      "total_cost": 237.5,
+      "first_bought_at": "2026-09-06T10:51:32.790261",
+      "last_updated": "2026-09-06T10:51:32.790261",
+      "composite_score": 77.0,
+      "action": "OVERWEIGHT",
+      "rrg_quadrant": "WEAKENING",
+      "sector": "Energy",
+      "role": "OFFENSIVE_LEADERSHIP"
+    },
+    "XLV": {
+      "shares": 1.3852435358846764,
+      "cost_basis_per_share": 171.4499969482422,
+      "total_cost": 237.5,
+      "first_bought_at": "2026-09-06T10:51:32.790261",
+      "last_updated": "2026-09-06T10:51:32.790261",
+      "composite_score": 73.5,
+      "action": "OVERWEIGHT",
+      "rrg_quadrant": "WEAKENING",
+      "sector": "Healthcare",
+      "role": "OFFENSIVE_LEADERSHIP"
+    },
+    "XBI": {
+      "shares": 1.4498504580897014,
+      "cost_basis_per_share": 163.80999755859375,
+      "total_cost": 237.5,
+      "first_bought_at": "2026-09-06T10:51:32.790261",
+      "last_updated": "2026-09-06T10:51:32.790261",
+      "composite_score": 97.0,
+      "action": "OVERWEIGHT",
+      "rrg_quadrant": "WEAKENING",
+      "sector": "Biotechnology",
+      "role": "THEMATIC_ALPHA"
+    }
+  },
+  "transactions": [
+    {
+      "timestamp": "2026-09-06T10:51:32.790261",
+      "action": "RESET_SECTOR_ROTATION",
+      "ticker": "USD",
+      "shares": 0.0,
+      "price": 1.0,
+      "amount": 1000.0,
+      "cash_after": 1000.0,
+      "reason": "Sector Rotation Rebalance (BULL_MARKET)"
+    },
+    {
+      "timestamp": "2026-09-06T10:51:32.790261",
+      "action": "BUY",
+      "ticker": "XLK",
+      "shares": 1.268154643037379,
+      "price": 187.27999877929688,
+      "amount": 237.5,
+      "cash_after": 762.5,
+      "reason": "Allocated to OFFENSIVE_LEADERSHIP (86.3/100, RRG: LEADING)"
+    },
+    {
+      "timestamp": "2026-09-06T10:51:32.790261",
+      "action": "BUY",
+      "ticker": "XLE",
+      "shares": 3.7074618959010404,
+      "price": 64.05999755859375,
+      "amount": 237.5,
+      "cash_after": 525.0,
+      "reason": "Allocated to OFFENSIVE_LEADERSHIP (77.0/100, RRG: WEAKENING)"
+    },
+    {
+      "timestamp": "2026-09-06T10:51:32.790261",
+      "action": "BUY",
+      "ticker": "XLV",
+      "shares": 1.3852435358846764,
+      "price": 171.4499969482422,
+      "amount": 237.5,
+      "cash_after": 287.5,
+      "reason": "Allocated to OFFENSIVE_LEADERSHIP (73.5/100, RRG: WEAKENING)"
+    },
+    {
+      "timestamp": "2026-09-06T10:51:32.790261",
+      "action": "BUY",
+      "ticker": "XBI",
+      "shares": 1.4498504580897014,
+      "price": 163.80999755859375,
+      "amount": 237.5,
+      "cash_after": 50.0,
+      "reason": "Allocated to THEMATIC_ALPHA (97.0/100, RRG: WEAKENING)"
+    }
+  ]
+}
